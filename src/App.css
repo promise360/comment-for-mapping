@@ -1,0 +1,53 @@
+.commenterholder {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: silver;
+  
+}
+
+.Commenter {
+  width: 550px;
+  height: 80px;
+  background-color: silver;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-top: 25px;
+}
+
+.deletebutn {
+  height: 30px;
+  width: 80px;
+  margin-right: 5px;
+  background-color:blueviolet;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+
+.input {
+  width: 500px;
+  height: 60px;
+  border:green;
+  border-radius: 10px;
+  font-size: 13pt;
+  cursor: text;
+  margin-bottom: 5px;
+  margin-left: 150px;
+}
+.comment {
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 12pt;
+  background-color: green;
+  color: whitesmoke;
+  margin-left: 20px;
+}
